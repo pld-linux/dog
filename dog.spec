@@ -13,13 +13,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 dog writes the contents of each given file, URL, or the standard input
 if none are given or when a file named '-' is given, to the standard
-output. It currently supports the file, http, and raw URL types. It is
+output. It currently supports the file, HTTP, and raw URL types. It is
 designed as a compatible, but enhanced, replacement of cat(1).
 
 %description -l pl
 dog wypisuje zawarto¶æ podanego pliku, URL lub standardowego wej¶cia
 (je¿eli nazwa pliku nie zosta³a podana albo jest to '-') na
-standardowe wyj¶cie. Aktualnie obs³uguje URL-e typu file, http oraz
+standardowe wyj¶cie. Aktualnie obs³uguje URL-e typu file, HTTP oraz
 raw. dog zosta³ zaprojektowany jako kompatybilny, ale rozszerzony
 zamiennik cat(1).
 
