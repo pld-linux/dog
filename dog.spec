@@ -18,9 +18,9 @@ designed as a compatible, but enhanced, replacement of cat(1).
 %description -l pl
 dog wypisuje zawarto¶æ podanego pliku, URL lub standardowego wej¶cia
 (je¿eli nazwa pliku nie zosta³a podana albo jest to '-') na
-standardowe wyj¶cie. Aktualnie obs³uguje pliki, http oraz URL typu
-RAW. dog zosta³ zaprojektowany jako kompatybilny, ale roszerzony
-zamiennik cat(1)
+standardowe wyj¶cie. Aktualnie obs³uguje URL-e typu file, http oraz
+raw. dog zosta³ zaprojektowany jako kompatybilny, ale rozszerzony
+zamiennik cat(1).
 
 %prep
 %setup -q
