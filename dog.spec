@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications/Text
 URL:		http://jl.photodex.com/dog/
 Source0:	http://jl.photodex.com/dog/%{name}-%{version}.tar.gz
+# Source0-md5:	9dd1e04efb7f8535a632bac2eef60a10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
