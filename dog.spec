@@ -2,7 +2,7 @@ Summary:	dog - better than cat
 Summary(pl):	dog - lepszy ni¿ cat
 Name:		dog
 Version:	1.7
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Text
 URL:		http://jl.photodex.com/dog/
