@@ -40,6 +40,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS README COPYING
+%doc AUTHORS README
 %attr(755,root,root) %{_bindir}/dog
 %{_mandir}/man1/dog.1*
