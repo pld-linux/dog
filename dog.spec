@@ -3,8 +3,8 @@ Summary(pl):	dog - lepszy ni¿ cat
 Name:		dog
 Version:	1.7
 Release:	1
-Group:		Applications/Text
 License:	GPL
+Group:		Applications/Text
 URL:		http://jl.photodex.com/dog/
 Source0:	http://jl.photodex.com/dog/%{name}-%{version}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -31,6 +31,7 @@ zamiennik cat(1)
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
+
 install dog $RPM_BUILD_ROOT%{_bindir}/dog
 install dog.1 $RPM_BUILD_ROOT%{_mandir}/man1/dog.1
 
@@ -39,6 +40,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/dog
-%{_mandir}/man1/dog.1.gz
 %doc AUTHORS README COPYING
+%attr(755,root,root) %{_bindir}/dog
+%{_mandir}/man1/dog.1*
