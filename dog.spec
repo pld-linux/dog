@@ -1,5 +1,5 @@
 Summary:	dog - better than cat
-Summary(pl):	dog - lepszy niø cat
+Summary(pl.UTF-8):   dog - lepszy ni≈º cat
 Name:		dog
 Version:	1.7
 Release:	2
@@ -16,11 +16,11 @@ if none are given or when a file named '-' is given, to the standard
 output. It currently supports the file, http, and raw URL types. It is
 designed as a compatible, but enhanced, replacement of cat(1).
 
-%description -l pl
-dog wypisuje zawarto∂Ê podanego pliku, URL lub standardowego wej∂cia
-(jeøeli nazwa pliku nie zosta≥a podana albo jest to '-') na
-standardowe wyj∂cie. Aktualnie obs≥uguje URL-e typu file, http oraz
-raw. dog zosta≥ zaprojektowany jako kompatybilny, ale rozszerzony
+%description -l pl.UTF-8
+dog wypisuje zawarto≈õƒá podanego pliku, URL lub standardowego wej≈õcia
+(je≈ºeli nazwa pliku nie zosta≈Ça podana albo jest to '-') na
+standardowe wyj≈õcie. Aktualnie obs≈Çuguje URL-e typu file, http oraz
+raw. dog zosta≈Ç zaprojektowany jako kompatybilny, ale rozszerzony
 zamiennik cat(1).
 
 %prep
