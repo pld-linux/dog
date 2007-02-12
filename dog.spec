@@ -1,5 +1,5 @@
 Summary:	dog - better than cat
-Summary(pl.UTF-8):   dog - lepszy niż cat
+Summary(pl.UTF-8):	dog - lepszy niż cat
 Name:		dog
 Version:	1.7
 Release:	2
